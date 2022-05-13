@@ -1,4 +1,4 @@
-package com.java.sms;
+package school.management.system;
 
 /**
  * This class is responsible for keeping the
@@ -104,13 +104,13 @@ public class Student {
         return feesTotal-feesPaid;
     }
 
-    @Override
+    //@Override
     public String toString() {
         return "Student's name :"+name+
                 " Total fees paid so far $"+ feesPaid;
     }
 }
-package com.java.sms;
+package school.management.system;
 
 /**
  * This class is responsible for keeping the track
@@ -180,14 +180,14 @@ public class Teacher {
     }
 
 
-    @Override
+   // @Override
     public String toString() {
         return "Name of the Teacher: " + name
                 +" Total salary earned so far $"
                 + salaryEarned;
     }
 }
-package com.java.sms;
+package school.management.system;
 
 import java.util.List;
 
@@ -200,7 +200,7 @@ public class School {
 
     private List<Teacher> teachers;
     private List<Student> students;
-    private static int  totalMoneyEarned;
+    private static int totalMoneyEarned;
     private static int totalMoneySpent;
 
     /**
@@ -281,7 +281,7 @@ public class School {
      }
 }
 
-package com.java.sms;
+package school.management.system;
 
 import java.util.ArrayList;
 import java.util.List;
