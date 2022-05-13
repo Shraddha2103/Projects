@@ -8,11 +8,6 @@ package GUI;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import javax.swing.JOptionPane;
-
-/**
- *
- * @author M Azhar Durrani
- */
 public class Connect {
     
     Connection con=null;
